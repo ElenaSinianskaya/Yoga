@@ -1,0 +1,84 @@
+@color-primary:#555;
+@color-nav-link:#555;
+@color-nav-active:#5363db;
+@color-title-light:#fff;
+@color-text-features:#fff;
+@color-least-subtitle-features:#fff;
+@color-features-border:#fff;
+@color-middle-subtitle-grey:#777;
+@color-middle-subtitle-light:#fff;
+@color-text-primary:#555;
+@color-type:#999;
+@color-bg-icon:#fff;
+@color-bg-card-hover-invisible:transparent;
+@color-bg-icon-invisible:transparent;
+@color-icon-invisible:transparent;
+@color-icon-search-hover:#5b6ceb;
+@color-bg-card-hover:rgba(91, 108, 235, 0.8);
+@color-bg-card-light:#fff;
+@color-bg-price:#5b6ceb;
+@color-bg-footer:#5b6ceb;
+@color-schedule:#555;
+@color-currency:#fff;
+@color-price:#fff;
+@color-month:#fff;
+@color-after:#d7d7d7;
+@color-smaller-subtitle-dark:#5b6ceb;
+@color-little-subtitle-dark:#777;
+@color-button-light:#fff;
+@color-placeholder:#888;
+@color-quote-text:#555;
+@color-footer-subtitle:#fff;
+@color-name-quote:#5b6ceb;
+@color-name-quote-little:#555;
+@color-legend:#5363db;
+@color-quote-position:#777;
+@color-bg-section-overlay:#5363db;
+@color-bg-form:#fff;
+@color-copyright:#b7bffc;
+@color-bg-basement:#5363d8;
+@color-footer-text:#fff;
+@color-img-review-border:#d7d7d7;
+@color-quotes-symbol:#5b6ceb;
+@color-bg-input:#f2f2f2;
+@color-bg-section-light:#fff;
+@color-bg-button-primary:#5b6ceb;
+@color-bg-button-hover:#475bf0;
+@font-weight-strong:700;
+@font-family-secondary:'FreestyleScript-Regular';
+
+
+
+.hook-text(@color, @font-size, @font-weight, @line-height, @text-transform){
+  color:@color;
+  font-size:@font-size;
+  font-weight: @font-weight;
+  line-height: @line-height;
+  text-transform: @text-transform;
+}
+
+.hook-input(@width, @background-color){
+  width:@width;
+  background-color:@background-color;
+}
+
+.placeholder(@color, @font-size, @font-family, @font-weight) {
+    &::-webkit-input-placeholder {
+        color: @color;
+        font-size: @font-size;
+        font-family: @font-family;
+        font-weight: @font-weight;
+    }
+    &:-moz-placeholder {
+        color: @color;
+        font-size: @font-size;
+        font-family: @font-family;
+        font-weight: @font-weight;
+    }
+}
+
+.box-shadow(@x,@y,@blur,@color){
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}

@@ -1,0 +1,29 @@
+.section {
+  position: relative;
+}
+.section-overlay img,
+.section-background img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-foreground {
+  padding: 30px 0;
+  position: relative;
+}
+.header {
+  background-color: ;
+  min-height: 102px;
+}
+.section-main .section-foreground {
+  min-height: ;
+}
+.footer .footer-foreground {
+  min-height: ;
+}
+
+/*# sourceMappingURL=section.css.map */

@@ -1,0 +1,36 @@
+@media screen and (min-width: 1191px) {
+  .container {
+    width: 1171px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-class {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .slider-main .slider-item-content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .slider-main .title {
+    text-align: center;
+  }
+  .slider-main .middle-subtitle {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-our-classes .section-heading-content {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,44 @@
+textarea{
+  resize: vertical;
+  outline: none;
+}
+
+.form{
+  width: 300px;
+  background-color: @color-bg-form;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 35px 25px;
+}
+
+.legend{
+  .hook-text(@color-legend,26px,null,28px,null);
+  align-self: flex-start;
+  margin-bottom: 31px;
+}
+
+.input{
+  .hook-input(230px, @color-bg-input);
+  padding: 18px 10px 19px 10px;
+  border-radius: 8px;
+  border: none;
+  align-self: center;
+  margin-bottom: 17px;
+}
+
+.button{
+  .hook-input(170px, @color-bg-button-primary);
+  padding: 17px 64px 16px;
+  color: @color-button-light;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+  align-self: flex-end;
+  margin-top: 14px;
+}
+
+.placeholder(@color-placeholder, 14px, null, null);

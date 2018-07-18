@@ -1,0 +1,47 @@
+// .button{
+//   display:-webkit-inline-flex;
+//   display:-ms-inline-flex;
+//   display: inline-flex;
+//   align-items: center;
+//   width: ;
+//   height: ;
+//   padding:17px 49px;
+//   font-family: ;
+//   color: ;
+//   background: ;
+//     &:hover{
+//       color: ;
+//       background: ;
+//     }
+// }
+
+.button{
+  .hook-input(170px, @color-bg-button-primary);
+  padding: 17px 64px 16px;
+  color: @color-button-light;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+  align-self: flex-end;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: @color-bg-button-hover;
+}
+
+.card-button{
+  margin: 0 auto;
+  text-align: center;
+  .button{
+    .hook-input(170px, @color-bg-button-primary);
+    padding: 17px 49px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: @color-bg-button-hover;
+  }
+
+}
